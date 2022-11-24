@@ -1,0 +1,116 @@
+instal python
+instan thonny  tool manage package 
+
+instal numpy (numerik, matrik lib), opencv-python (dikembangkan oleh intel), opencv-contrib-python
+
+
+untuk vision . mesin dengan banyak GPU dari NVIDIA  bhs Kuda, lebih bagus GPU diatas min 8 (untuk Lab COMVIS) 
+ kamera hp: donlod di playstore IP WEBCAM instal
+
+hari ke 2 pelatihan
+
+1. akses video dari youtube
+tambahan 2 librari
+1. instal pafy
+2. instal youtube_dl
+
+sift algoritm utuk pencocokan bentuk benda
+
+2. konsep warna
+mengambil warna tertentu dengan memfilter nilai Hue
+rgb ke hsv pada opencv h =,dari 0 sd 180 menentukan warna, sdgkan S dan V hanya menentuka intensitas
+
+face detection === haar-like  feature ====teknik ML sederhana===== dengan rujukan data set yg bersesuaian
+https://en.wikipedia.org/wiki/Haar-like_feature
+
+https://en.wikipedia.org/wiki/Kernel_(image_processing)
+
+etrak: opencv-4.1.0-vc14_vc15 lalu buka di tempat extrak
+D:/ComputerVision/opencv/sources/data/haarcascades/haarcascade_frontalface_default.xml
+
+ambil ROI wajah
+
+
+machine learning instal
+scipy                   science library
+scikit-learn             utk ML        
+scikit-image             utk img lanjut
+pillow                   utk image lib
+tensorflow               utk
+
+
+
+
+3.ML
+instal  tensor flow windows whell
+https://github.com/fo40225/tensorflow-windows-wheel/blob/master/1.12.0/py36/CPU/sse2/tensorflow-1.12.0-cp36-cp36m-win_amd64.whl
+
+
+https://en.wikipedia.org/wiki/Iris_flower_data_set
+https://scikit-learn.org/stable/
+
+instal scikit-learn dengan thony
+
+
+
+image data set 
+http://www.image-net.org/
+https://www.kaggle.com/datasets
+
+3. tensorflow  hanya jalan di 64 bit, & keras jalan di 64 bit atau 32
+ theano (jalan di 32) gantinya tensorflow
+
+
+
+
+ambil dataset
+
+>>form keras.datasets import mnist
+
+>>mnist.load_data()
+
+
+membangun CNN_deeplearning.py
+
+
+utk pembelajaran === instal matplotlib
+
+
+jk tes mengunakan normalisasi, maka waktu uji harus menggunakan normalisasi juga
+
+
+
+
+
+
+
+
+
+
+4 neural network
+penting proses membuat model =========tensorflow
+
+komputasi klasik masukan data dan rule  lihat hasilnya 
+komputasi cerdas masukan data dan hasil  cari modelnya
+
+depnn opencv
+
+
+output layer 1 jika output 0 dan 1
+kalau outputnya 10 maka output layer ada 10
+
+tugas sistem mencari nilai w (bobot)
+inisialisasi awal nilai bobot dibangkitkan secara random
+perkalian bobot dengan input akan dijadikan input hiden layer setelah melalui fungsi aktifasi
+kita pilih sendiri,  jumlah hiden layer, jumlah neuron dalam tiap layer, jenis fungsi aktifasi (ReLU yang terbaik=== saran ), nilai error yang dimauin
+
+
+
+utuk komputasi yang kompleks GPU minimal nvidia gtx1060   7 jutaan hati hati ada "OC" overclock, di speedup (barang bekas)
+
+tujuan dnn hanya objec detection atau objec clasification
+
+
+sewa GPU === amazon, google colab
+reff = https://github.com/kyamagu/mexopencv/blob/master/samples/dnn_face_detector.m
+
